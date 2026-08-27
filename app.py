@@ -93,31 +93,31 @@ UI = {
     "it": {"title": "Listino Prezzi Gruppo Soria", "updated": "Aggiornato al", "unavailable": "Non disponibile", "footer": "Prezzi indicativi, franco Volla (NA), salvo conferma disponibilità.",
            "order_title": "Il tuo ordine", "qty": "Quantità", "no_items": "Seleziona le quantità dei prodotti che ti interessano qui sopra: appariranno qui.",
            "reference": "Il tuo nome / azienda (facoltativo)", "send_whatsapp": "📲 Invia ordine via WhatsApp", "send_email": "✉️ Invia ordine via Email",
-           "order_header": "Nuovo ordine dal listino", "order_subject": "Nuovo ordine", "not_configured": "Contatti per l'ordine non ancora configurati.", "total": "Totale", "restricted_area": "Area riservata fornitori"},
+           "order_header": "Nuovo ordine dal listino", "order_subject": "Nuovo ordine", "not_configured": "Contatti per l'ordine non ancora configurati.", "total": "Totale", "restricted_area": "Area riservata fornitori", "reference_label": "Cliente", "reference_placeholder": "non specificato"},
     "en": {"title": "Gruppo Soria — Fresh Produce Price List", "updated": "Updated on", "unavailable": "Not available", "footer": "Indicative prices, ex-works Volla (Naples, Italy), subject to availability confirmation.",
            "order_title": "Your order", "qty": "Quantity", "no_items": "Select quantities for the products you need above: they'll appear here.",
            "reference": "Your name / company (optional)", "send_whatsapp": "📲 Send order via WhatsApp", "send_email": "✉️ Send order via Email",
-           "order_header": "New order from the price list", "order_subject": "New order", "not_configured": "Order contact details not configured yet.", "total": "Total", "restricted_area": "Supplier restricted area"},
+           "order_header": "New order from the price list", "order_subject": "New order", "not_configured": "Order contact details not configured yet.", "total": "Total", "restricted_area": "Supplier restricted area", "reference_label": "Customer", "reference_placeholder": "not specified"},
     "fr": {"title": "Gruppo Soria — Liste de prix Fruits & Légumes", "updated": "Mis à jour le", "unavailable": "Indisponible", "footer": "Prix indicatifs, départ Volla (Naples, Italie), sous réserve de disponibilité.",
            "order_title": "Votre commande", "qty": "Quantité", "no_items": "Sélectionnez les quantités des produits souhaités ci-dessus : elles apparaîtront ici.",
            "reference": "Votre nom / entreprise (facultatif)", "send_whatsapp": "📲 Envoyer la commande via WhatsApp", "send_email": "✉️ Envoyer la commande par Email",
-           "order_header": "Nouvelle commande depuis la liste de prix", "order_subject": "Nouvelle commande", "not_configured": "Coordonnées pour la commande pas encore configurées.", "total": "Total", "restricted_area": "Espace réservé fournisseur"},
+           "order_header": "Nouvelle commande depuis la liste de prix", "order_subject": "Nouvelle commande", "not_configured": "Coordonnées pour la commande pas encore configurées.", "total": "Total", "restricted_area": "Espace réservé fournisseur", "reference_label": "Client", "reference_placeholder": "non précisé"},
     "es": {"title": "Gruppo Soria — Lista de precios Frutas y Verduras", "updated": "Actualizado el", "unavailable": "No disponible", "footer": "Precios indicativos, salida Volla (Nápoles, Italia), sujeto a confirmación de disponibilidad.",
            "order_title": "Tu pedido", "qty": "Cantidad", "no_items": "Selecciona arriba las cantidades de los productos que te interesan: aparecerán aquí.",
            "reference": "Tu nombre / empresa (opcional)", "send_whatsapp": "📲 Enviar pedido por WhatsApp", "send_email": "✉️ Enviar pedido por Email",
-           "order_header": "Nuevo pedido desde la lista de precios", "order_subject": "Nuevo pedido", "not_configured": "Datos de contacto para el pedido aún no configurados.", "total": "Total", "restricted_area": "Área reservada proveedor"},
+           "order_header": "Nuevo pedido desde la lista de precios", "order_subject": "Nuevo pedido", "not_configured": "Datos de contacto para el pedido aún no configurados.", "total": "Total", "restricted_area": "Área reservada proveedor", "reference_label": "Cliente", "reference_placeholder": "no especificado"},
     "pl": {"title": "Gruppo Soria — Cennik Owoców i Warzyw", "updated": "Zaktualizowano", "unavailable": "Niedostępne", "footer": "Ceny orientacyjne, loco Volla (Neapol, Włochy), z zastrzeżeniem dostępności.",
            "order_title": "Twoje zamówienie", "qty": "Ilość", "no_items": "Wybierz powyżej ilości interesujących Cię produktów: pojawią się tutaj.",
            "reference": "Twoje imię / firma (opcjonalnie)", "send_whatsapp": "📲 Wyślij zamówienie przez WhatsApp", "send_email": "✉️ Wyślij zamówienie e-mailem",
-           "order_header": "Nowe zamówienie z cennika", "order_subject": "Nowe zamówienie", "not_configured": "Dane kontaktowe do zamówień nie zostały jeszcze skonfigurowane.", "total": "Razem", "restricted_area": "Strefa dostawcy"},
+           "order_header": "Nowe zamówienie z cennika", "order_subject": "Nowe zamówienie", "not_configured": "Dane kontaktowe do zamówień nie zostały jeszcze skonfigurowane.", "total": "Razem", "restricted_area": "Strefa dostawcy", "reference_label": "Klient", "reference_placeholder": "nie podano"},
     "el": {"title": "Gruppo Soria — Τιμοκατάλογος Οπωροκηπευτικών", "updated": "Ενημερώθηκε στις", "unavailable": "Μη διαθέσιμο", "footer": "Ενδεικτικές τιμές, εκ Volla (Νάπολη, Ιταλία), με την επιφύλαξη διαθεσιμότητας.",
            "order_title": "Η παραγγελία σας", "qty": "Ποσότητα", "no_items": "Επιλέξτε παραπάνω τις ποσότητες των προϊόντων που σας ενδιαφέρουν: θα εμφανιστούν εδώ.",
            "reference": "Όνομα / εταιρεία σας (προαιρετικό)", "send_whatsapp": "📲 Αποστολή παραγγελίας μέσω WhatsApp", "send_email": "✉️ Αποστολή παραγγελίας μέσω Email",
-           "order_header": "Νέα παραγγελία από τον τιμοκατάλογο", "order_subject": "Νέα παραγγελία", "not_configured": "Τα στοιχεία επικοινωνίας για παραγγελίες δεν έχουν ρυθμιστεί ακόμα.", "total": "Σύνολο", "restricted_area": "Περιοχή προμηθευτή"},
+           "order_header": "Νέα παραγγελία από τον τιμοκατάλογο", "order_subject": "Νέα παραγγελία", "not_configured": "Τα στοιχεία επικοινωνίας για παραγγελίες δεν έχουν ρυθμιστεί ακόμα.", "total": "Σύνολο", "restricted_area": "Περιοχή προμηθευτή", "reference_label": "Πελάτης", "reference_placeholder": "δεν αναφέρθηκε"},
     "pt": {"title": "Gruppo Soria — Lista de Preços Hortofrutícolas", "updated": "Atualizado em", "unavailable": "Indisponível", "footer": "Preços indicativos, saída de Volla (Nápoles, Itália), sujeitos a confirmação de disponibilidade.",
            "order_title": "O seu pedido", "qty": "Quantidade", "no_items": "Selecione acima as quantidades dos produtos que pretende: vão aparecer aqui.",
            "reference": "O seu nome / empresa (opcional)", "send_whatsapp": "📲 Enviar pedido via WhatsApp", "send_email": "✉️ Enviar pedido por Email",
-           "order_header": "Novo pedido da lista de preços", "order_subject": "Novo pedido", "not_configured": "Contactos para pedidos ainda não configurados.", "total": "Total", "restricted_area": "Área reservada fornecedor"},
+           "order_header": "Novo pedido da lista de preços", "order_subject": "Novo pedido", "not_configured": "Contactos para pedidos ainda não configurados.", "total": "Total", "restricted_area": "Área reservada fornecedor", "reference_label": "Cliente", "reference_placeholder": "não especificado"},
 }
 
 UNIT_LABELS = {
@@ -463,15 +463,14 @@ def render_customer_view():
         render_supplier_access_control(lang)
         return
 
+    riferimento = st.text_input(t["reference"], key="order_reference")
+
     order_body_preview = "\n".join(cart_lines) + f"\n\n{t['total']}: {grand_total:.2f}€"
     st.text_area(t["order_title"], order_body_preview, height=min(38 + 28 * len(cart_lines) + 30, 320), disabled=True, label_visibility="collapsed")
     st.markdown(f"<div class='cart-total'>{t['total']}: <span class='amount'>{grand_total:.2f} €</span></div>", unsafe_allow_html=True)
 
-    riferimento = st.text_input(t["reference"], key="order_reference")
-
-    full_message = f"{t['order_header']}\n\n{order_body_preview}"
-    if riferimento.strip():
-        full_message += f"\n\n{t['reference']}: {riferimento.strip()}"
+    nome_cliente = riferimento.strip() if riferimento.strip() else t["reference_placeholder"]
+    full_message = f"{t['order_header']}\n{t['reference_label']}: {nome_cliente}\n\n{order_body_preview}"
 
     encoded_msg = urllib.parse.quote(full_message)
 
