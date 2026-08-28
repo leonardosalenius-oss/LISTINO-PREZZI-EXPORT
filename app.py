@@ -313,10 +313,10 @@ st.markdown(
     .contact-line a { color: #E0871F; text-decoration: none; }
     .contact-line a:hover { text-decoration: underline; }
     .cert-footer { background: #1F3128; border: 1px solid #3A4A3D; border-radius: 12px;
-        padding: 18px 22px; margin-top: 28px; }
+        padding: 18px 22px; margin-top: 28px; text-align: center; }
     .cert-footer-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; text-transform: uppercase;
         letter-spacing: 0.12em; color: #8B968D; margin-bottom: 12px; display: block; }
-    .cert-footer-logos { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+    .cert-footer-logos { display: flex; align-items: center; justify-content: center; gap: 28px; flex-wrap: wrap; }
     .cert-badge { display: inline-flex; align-items: center; }
     .cert-badge img { height: 48px; width: auto; object-fit: contain; display: block;
         filter: drop-shadow(0 0 1px rgba(255,255,255,0.95)) drop-shadow(0 0 2px rgba(255,255,255,0.75)) drop-shadow(0 0 5px rgba(255,255,255,0.4)); }
