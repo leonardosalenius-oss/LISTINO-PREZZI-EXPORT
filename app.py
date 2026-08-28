@@ -306,7 +306,7 @@ st.markdown(
     .app-title::after { content: ''; display: block; width: 64px; height: 4px; background: #D3A22C;
         border-radius: 2px; margin-top: 10px; }
     .footer-note { color: #8B968D; font-family: 'IBM Plex Mono', monospace; font-size: 0.72rem; text-align: center; margin-top: 24px; }
-    .logo-row { display: flex; align-items: center; gap: 28px; margin-bottom: 18px; flex-wrap: wrap; }
+    .logo-row { display: flex; align-items: center; justify-content: center; gap: 28px; margin-bottom: 18px; flex-wrap: wrap; }
     .logo-row img { display: block; object-fit: contain; height: 42px; width: auto; }
     .contact-line { color: #A8B3A9; font-family: 'IBM Plex Mono', monospace; font-size: 0.78rem;
         margin: 10px 0 4px 0; display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: center; }
