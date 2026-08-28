@@ -23,7 +23,7 @@
 
 // ATTENZIONE: cambia questa chiave con una stringa segreta a tua scelta,
 // e usane la STESSA nel file .streamlit/secrets.toml della app Streamlit.
-var API_KEY = "CAMBIA_QUESTA_CHIAVE_1234";
+var API_KEY = "Ro123456789@";
 
 // ID del Google Sheet a cui questo script deve collegarsi esplicitamente
 // (necessario se lo script non e' stato creato da dentro il foglio stesso
