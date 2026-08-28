@@ -312,12 +312,14 @@ st.markdown(
         margin: 10px 0 4px 0; display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: center; }
     .contact-line a { color: #E0871F; text-decoration: none; }
     .contact-line a:hover { text-decoration: underline; }
-    .cert-footer { background: #1F3128; border: 1px solid #3A4A3D; border-radius: 10px;
-        padding: 14px 20px; margin-top: 28px; display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
-    .cert-footer-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.68rem; text-transform: uppercase;
-        letter-spacing: 0.1em; color: #8B968D; flex-shrink: 0; }
-    .cert-footer-logos { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
-    .cert-footer-logos img { height: 26px; object-fit: contain; background: #F5F0E1; border-radius: 5px; padding: 5px 9px; }
+    .cert-footer { background: #1F3128; border: 1px solid #3A4A3D; border-radius: 12px;
+        padding: 18px 22px; margin-top: 28px; }
+    .cert-footer-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; text-transform: uppercase;
+        letter-spacing: 0.12em; color: #8B968D; margin-bottom: 12px; display: block; }
+    .cert-footer-logos { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+    .cert-badge { background: #F5F0E1; border-radius: 8px; padding: 10px 18px; display: inline-flex;
+        align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+    .cert-badge img { height: 48px; width: auto; object-fit: contain; display: block; }
     .cart-total { font-family: 'Oswald', sans-serif; color: #FBF8EF; font-size: 1.3rem; font-weight: 700;
         text-align: right; margin: 10px 0; padding-top: 10px; border-top: 2px solid #D3A22C; }
     .cart-total .amount { font-family: 'IBM Plex Mono', monospace; color: #D3A22C; }
@@ -378,7 +380,7 @@ def render_customer_view():
     )
 
     cert_html = "".join(
-        f"<img src='data:image/{mime};base64,{b64}' title='{label}'>"
+        f"<div class='cert-badge'><img src='data:image/{mime};base64,{b64}' title='{label}' alt='{label}'></div>"
         for b64, mime, label in CERT_LOGOS if b64
     )
 
