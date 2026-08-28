@@ -44,9 +44,9 @@ LOGOS = [
 
 # Loghi certificazioni: aggiungi qui appena disponibili i file (stessa cartella assets/)
 CERT_LOGOS = [
-    (load_logo_b64("cert_iso9001.png"), "png", "ISO 9001"),
-    (load_logo_b64("cert_globalgap.png"), "png", "Global G.A.P."),
-    (load_logo_b64("cert_ifsfood.png"), "png", "IFS Food"),
+    (load_logo_b64("cert_iso9001_processed.png"), "png", "ISO 9001"),
+    (load_logo_b64("cert_globalgap_processed.png"), "png", "Global G.A.P."),
+    (load_logo_b64("cert_ifsfood_processed.png"), "png", "IFS Food"),
 ]
 
 REQUEST_TIMEOUT = 20
@@ -93,31 +93,31 @@ UI = {
     "it": {"title": "Listino Prezzi Gruppo Soria", "updated": "Aggiornato al", "unavailable": "Non disponibile", "footer": "Prezzi indicativi, franco Volla (NA), salvo conferma disponibilità.",
            "order_title": "Il tuo ordine", "qty": "Quantità", "no_items": "Seleziona le quantità dei prodotti che ti interessano qui sopra: appariranno qui.",
            "reference": "Il tuo nome / azienda (facoltativo)", "send_whatsapp": "📲 Invia ordine via WhatsApp", "send_email": "✉️ Invia ordine via Email",
-           "order_header": "Nuovo ordine dal listino", "order_subject": "Nuovo ordine", "not_configured": "Contatti per l'ordine non ancora configurati.", "total": "Totale", "restricted_area": "Area riservata fornitori", "reference_label": "Cliente", "reference_placeholder": "non specificato"},
+           "order_header": "Nuovo ordine dal listino", "order_subject": "Nuovo ordine", "not_configured": "Contatti per l'ordine non ancora configurati.", "total": "Totale", "restricted_area": "Area riservata fornitori", "reference_label": "Cliente", "reference_placeholder": "non specificato", "package_of": "confezione da", "packages_unit": "confezioni"},
     "en": {"title": "Gruppo Soria — Fresh Produce Price List", "updated": "Updated on", "unavailable": "Not available", "footer": "Indicative prices, ex-works Volla (Naples, Italy), subject to availability confirmation.",
            "order_title": "Your order", "qty": "Quantity", "no_items": "Select quantities for the products you need above: they'll appear here.",
            "reference": "Your name / company (optional)", "send_whatsapp": "📲 Send order via WhatsApp", "send_email": "✉️ Send order via Email",
-           "order_header": "New order from the price list", "order_subject": "New order", "not_configured": "Order contact details not configured yet.", "total": "Total", "restricted_area": "Supplier restricted area", "reference_label": "Customer", "reference_placeholder": "not specified"},
+           "order_header": "New order from the price list", "order_subject": "New order", "not_configured": "Order contact details not configured yet.", "total": "Total", "restricted_area": "Supplier restricted area", "reference_label": "Customer", "reference_placeholder": "not specified", "package_of": "package of", "packages_unit": "packages"},
     "fr": {"title": "Gruppo Soria — Liste de prix Fruits & Légumes", "updated": "Mis à jour le", "unavailable": "Indisponible", "footer": "Prix indicatifs, départ Volla (Naples, Italie), sous réserve de disponibilité.",
            "order_title": "Votre commande", "qty": "Quantité", "no_items": "Sélectionnez les quantités des produits souhaités ci-dessus : elles apparaîtront ici.",
            "reference": "Votre nom / entreprise (facultatif)", "send_whatsapp": "📲 Envoyer la commande via WhatsApp", "send_email": "✉️ Envoyer la commande par Email",
-           "order_header": "Nouvelle commande depuis la liste de prix", "order_subject": "Nouvelle commande", "not_configured": "Coordonnées pour la commande pas encore configurées.", "total": "Total", "restricted_area": "Espace réservé fournisseur", "reference_label": "Client", "reference_placeholder": "non précisé"},
+           "order_header": "Nouvelle commande depuis la liste de prix", "order_subject": "Nouvelle commande", "not_configured": "Coordonnées pour la commande pas encore configurées.", "total": "Total", "restricted_area": "Espace réservé fournisseur", "reference_label": "Client", "reference_placeholder": "non précisé", "package_of": "colis de", "packages_unit": "colis"},
     "es": {"title": "Gruppo Soria — Lista de precios Frutas y Verduras", "updated": "Actualizado el", "unavailable": "No disponible", "footer": "Precios indicativos, salida Volla (Nápoles, Italia), sujeto a confirmación de disponibilidad.",
            "order_title": "Tu pedido", "qty": "Cantidad", "no_items": "Selecciona arriba las cantidades de los productos que te interesan: aparecerán aquí.",
            "reference": "Tu nombre / empresa (opcional)", "send_whatsapp": "📲 Enviar pedido por WhatsApp", "send_email": "✉️ Enviar pedido por Email",
-           "order_header": "Nuevo pedido desde la lista de precios", "order_subject": "Nuevo pedido", "not_configured": "Datos de contacto para el pedido aún no configurados.", "total": "Total", "restricted_area": "Área reservada proveedor", "reference_label": "Cliente", "reference_placeholder": "no especificado"},
+           "order_header": "Nuevo pedido desde la lista de precios", "order_subject": "Nuevo pedido", "not_configured": "Datos de contacto para el pedido aún no configurados.", "total": "Total", "restricted_area": "Área reservada proveedor", "reference_label": "Cliente", "reference_placeholder": "no especificado", "package_of": "paquete de", "packages_unit": "paquetes"},
     "pl": {"title": "Gruppo Soria — Cennik Owoców i Warzyw", "updated": "Zaktualizowano", "unavailable": "Niedostępne", "footer": "Ceny orientacyjne, loco Volla (Neapol, Włochy), z zastrzeżeniem dostępności.",
            "order_title": "Twoje zamówienie", "qty": "Ilość", "no_items": "Wybierz powyżej ilości interesujących Cię produktów: pojawią się tutaj.",
            "reference": "Twoje imię / firma (opcjonalnie)", "send_whatsapp": "📲 Wyślij zamówienie przez WhatsApp", "send_email": "✉️ Wyślij zamówienie e-mailem",
-           "order_header": "Nowe zamówienie z cennika", "order_subject": "Nowe zamówienie", "not_configured": "Dane kontaktowe do zamówień nie zostały jeszcze skonfigurowane.", "total": "Razem", "restricted_area": "Strefa dostawcy", "reference_label": "Klient", "reference_placeholder": "nie podano"},
+           "order_header": "Nowe zamówienie z cennika", "order_subject": "Nowe zamówienie", "not_configured": "Dane kontaktowe do zamówień nie zostały jeszcze skonfigurowane.", "total": "Razem", "restricted_area": "Strefa dostawcy", "reference_label": "Klient", "reference_placeholder": "nie podano", "package_of": "opakowanie", "packages_unit": "opakowania"},
     "el": {"title": "Gruppo Soria — Τιμοκατάλογος Οπωροκηπευτικών", "updated": "Ενημερώθηκε στις", "unavailable": "Μη διαθέσιμο", "footer": "Ενδεικτικές τιμές, εκ Volla (Νάπολη, Ιταλία), με την επιφύλαξη διαθεσιμότητας.",
            "order_title": "Η παραγγελία σας", "qty": "Ποσότητα", "no_items": "Επιλέξτε παραπάνω τις ποσότητες των προϊόντων που σας ενδιαφέρουν: θα εμφανιστούν εδώ.",
            "reference": "Όνομα / εταιρεία σας (προαιρετικό)", "send_whatsapp": "📲 Αποστολή παραγγελίας μέσω WhatsApp", "send_email": "✉️ Αποστολή παραγγελίας μέσω Email",
-           "order_header": "Νέα παραγγελία από τον τιμοκατάλογο", "order_subject": "Νέα παραγγελία", "not_configured": "Τα στοιχεία επικοινωνίας για παραγγελίες δεν έχουν ρυθμιστεί ακόμα.", "total": "Σύνολο", "restricted_area": "Περιοχή προμηθευτή", "reference_label": "Πελάτης", "reference_placeholder": "δεν αναφέρθηκε"},
+           "order_header": "Νέα παραγγελία από τον τιμοκατάλογο", "order_subject": "Νέα παραγγελία", "not_configured": "Τα στοιχεία επικοινωνίας για παραγγελίες δεν έχουν ρυθμιστεί ακόμα.", "total": "Σύνολο", "restricted_area": "Περιοχή προμηθευτή", "reference_label": "Πελάτης", "reference_placeholder": "δεν αναφέρθηκε", "package_of": "συσκευασία", "packages_unit": "συσκευασίες"},
     "pt": {"title": "Gruppo Soria — Lista de Preços Hortofrutícolas", "updated": "Atualizado em", "unavailable": "Indisponível", "footer": "Preços indicativos, saída de Volla (Nápoles, Itália), sujeitos a confirmação de disponibilidade.",
            "order_title": "O seu pedido", "qty": "Quantidade", "no_items": "Selecione acima as quantidades dos produtos que pretende: vão aparecer aqui.",
            "reference": "O seu nome / empresa (opcional)", "send_whatsapp": "📲 Enviar pedido via WhatsApp", "send_email": "✉️ Enviar pedido por Email",
-           "order_header": "Novo pedido da lista de preços", "order_subject": "Novo pedido", "not_configured": "Contactos para pedidos ainda não configurados.", "total": "Total", "restricted_area": "Área reservada fornecedor", "reference_label": "Cliente", "reference_placeholder": "não especificado"},
+           "order_header": "Novo pedido da lista de preços", "order_subject": "Novo pedido", "not_configured": "Contactos para pedidos ainda não configurados.", "total": "Total", "restricted_area": "Área reservada fornecedor", "reference_label": "Cliente", "reference_placeholder": "não especificado", "package_of": "embalagem de", "packages_unit": "embalagens"},
 }
 
 UNIT_LABELS = {
@@ -210,6 +210,7 @@ def load_products():
             "traduzioni": traduzioni,
             "ordine": int(float(r.get("ordine") or 0)),
             "immagine_url": (r.get("immagine_url") or "").strip(),
+            "confezione_kg": _parse_float_or_none(r.get("confezione_kg")),
         })
     products.sort(key=lambda p: p["ordine"])
     return products
@@ -311,8 +312,12 @@ st.markdown(
         margin: 10px 0 4px 0; display: flex; flex-wrap: wrap; gap: 4px 18px; align-items: center; }
     .contact-line a { color: #E0871F; text-decoration: none; }
     .contact-line a:hover { text-decoration: underline; }
-    .cert-row { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; margin: 16px 0 4px 0; }
-    .cert-row img { height: 30px; object-fit: contain; opacity: 0.92; }
+    .cert-footer { background: #1F3128; border: 1px solid #3A4A3D; border-radius: 10px;
+        padding: 14px 20px; margin-top: 28px; display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+    .cert-footer-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.68rem; text-transform: uppercase;
+        letter-spacing: 0.1em; color: #8B968D; flex-shrink: 0; }
+    .cert-footer-logos { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+    .cert-footer-logos img { height: 26px; object-fit: contain; background: #F5F0E1; border-radius: 5px; padding: 5px 9px; }
     .cart-total { font-family: 'Oswald', sans-serif; color: #FBF8EF; font-size: 1.3rem; font-weight: 700;
         text-align: right; margin: 10px 0; padding-top: 10px; border-top: 2px solid #D3A22C; }
     .cart-total .amount { font-family: 'IBM Plex Mono', monospace; color: #D3A22C; }
@@ -376,8 +381,6 @@ def render_customer_view():
         f"<img src='data:image/{mime};base64,{b64}' title='{label}'>"
         for b64, mime, label in CERT_LOGOS if b64
     )
-    if cert_html:
-        st.markdown(f"<div class='cert-row'>{cert_html}</div>", unsafe_allow_html=True)
 
     cols = st.columns(len(LANGUAGES))
     for i, (code, label) in enumerate(LANGUAGES):
@@ -404,6 +407,9 @@ def render_customer_view():
         st.markdown(f"<div class='cat-header'>{cat_label(categoria, cat_trad, lang)}</div>", unsafe_allow_html=True)
         for p in items:
             nome = name_label(p, lang)
+            confezione = p.get("confezione_kg")
+            vende_a_confezione = confezione and confezione > 0
+
             perkg = calc_prezzo_kg(p["prezzo_base"], p["unita_base"], p["peso_unitario_kg"])
             arrow = trend_symbol(storico.get(p["id"], []))
             conv_html = ""
@@ -419,10 +425,16 @@ def render_customer_view():
                 visual_html = f"<img class='product-photo' src='{p['immagine_url']}' alt='' onerror=\"this.outerHTML='<span class=product-icon>{category_emoji(p['categoria'])}</span>'\">"
             else:
                 visual_html = f"<span class='product-icon'>{category_emoji(p['categoria'])}</span>"
+
+            formato_display = p["formato"] or ""
+            if vende_a_confezione:
+                pkg_note = f"{t['package_of']} {confezione:g} kg"
+                formato_display = f"{formato_display} · {pkg_note}" if formato_display else pkg_note
+
             card_html = (
                 f"<div class='product-card'>"
                 f"<div style='display:flex; align-items:center; gap:10px;'>{visual_html}"
-                f"<div><div class='product-name'>{nome}</div><div class='product-format'>{p['formato'] or ''}</div></div></div>"
+                f"<div><div class='product-name'>{nome}</div><div class='product-format'>{formato_display}</div></div></div>"
                 f"{right_html}</div>"
             )
 
@@ -434,10 +446,22 @@ def render_customer_view():
                     t["qty"], min_value=0, step=1, value=st.session_state.cart.get(p["id"], 0),
                     key=f"qty_{p['id']}", label_visibility="collapsed",
                 )
-                st.caption(unit_label(p["unita_base"], lang))
+                if vende_a_confezione:
+                    st.caption(t["packages_unit"])
+                    if qty > 0:
+                        st.caption(f"= {qty * confezione:g} kg")
+                else:
+                    st.caption(unit_label(p["unita_base"], lang))
                 st.session_state.cart[p["id"]] = qty
 
     st.markdown(f"<div class='footer-note'>{t['footer']}</div>", unsafe_allow_html=True)
+
+    if cert_html:
+        st.markdown(
+            f"<div class='cert-footer'><span class='cert-footer-label'>Certificazioni</span>"
+            f"<div class='cert-footer-logos'>{cert_html}</div></div>",
+            unsafe_allow_html=True,
+        )
 
     # -----------------------------------------------------------------
     # Riepilogo ordine
@@ -451,12 +475,22 @@ def render_customer_view():
     for pid, qty in st.session_state.cart.items():
         if qty and qty > 0 and pid in products_by_id:
             p = products_by_id[pid]
-            subtotal = qty * p["prezzo_base"]
-            grand_total += subtotal
-            cart_lines.append(
-                f"- {name_label(p, lang)}: {qty} {unit_label(p['unita_base'], lang)} "
-                f"× {p['prezzo_base']:.2f}€ = {subtotal:.2f}€"
-            )
+            confezione = p.get("confezione_kg")
+            if confezione and confezione > 0:
+                kg_totali = qty * confezione
+                subtotal = kg_totali * p["prezzo_base"]
+                grand_total += subtotal
+                cart_lines.append(
+                    f"- {name_label(p, lang)}: {qty} {t['packages_unit']} × {confezione:g}kg "
+                    f"= {kg_totali:g}kg × {p['prezzo_base']:.2f}€/kg = {subtotal:.2f}€"
+                )
+            else:
+                subtotal = qty * p["prezzo_base"]
+                grand_total += subtotal
+                cart_lines.append(
+                    f"- {name_label(p, lang)}: {qty} {unit_label(p['unita_base'], lang)} "
+                    f"× {p['prezzo_base']:.2f}€ = {subtotal:.2f}€"
+                )
 
     if not cart_lines:
         st.caption(t["no_items"])
@@ -571,6 +605,17 @@ def render_supplier_view():
                         else:
                             st.caption("Inserisci il peso per calcolare il prezzo al kg")
 
+                    confezione_kg = None
+                    if unita == "kg":
+                        confezione_kg = st.number_input(
+                            "Kg per confezione/cassa (facoltativo — se impostato, il cliente ordina 'a casse' invece che a kg diretti)",
+                            value=float(p.get("confezione_kg") or 0), step=0.5, format="%.2f",
+                            key=f"confezione_{p['id']}",
+                        )
+                        if confezione_kg and confezione_kg > 0:
+                            st.caption(f"Il cliente vedrà: prezzo {prezzo:.2f} €/kg, e ordinerà a confezioni da {confezione_kg:g}kg "
+                                       f"(es. 2 confezioni = {2*confezione_kg:g}kg = {2*confezione_kg*prezzo:.2f}€)")
+
                     save = st.form_submit_button("💾 Salva")
                     delete = st.form_submit_button("🗑️ Elimina prodotto")
 
@@ -580,6 +625,7 @@ def render_supplier_view():
                             "prezzo_base": prezzo, "unita_base": unita,
                             "peso_unitario_kg": peso if unita in ("cassa", "testa") else None,
                             "disponibile": disponibile, "immagine_url": immagine_url.strip(),
+                            "confezione_kg": confezione_kg if (unita == "kg" and confezione_kg and confezione_kg > 0) else "",
                         }
                         if save_product(p["id"], updates, p):
                             invalidate_cache()
