@@ -316,10 +316,10 @@ st.markdown(
         padding: 18px 22px; margin-top: 28px; }
     .cert-footer-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; text-transform: uppercase;
         letter-spacing: 0.12em; color: #8B968D; margin-bottom: 12px; display: block; }
-    .cert-footer-logos { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-    .cert-badge { background: #F5F0E1; border-radius: 8px; padding: 10px 18px; display: inline-flex;
-        align-items: center; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
-    .cert-badge img { height: 48px; width: auto; object-fit: contain; display: block; }
+    .cert-footer-logos { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+    .cert-badge { display: inline-flex; align-items: center; }
+    .cert-badge img { height: 48px; width: auto; object-fit: contain; display: block;
+        filter: drop-shadow(0 0 1px rgba(255,255,255,0.95)) drop-shadow(0 0 2px rgba(255,255,255,0.75)) drop-shadow(0 0 5px rgba(255,255,255,0.4)); }
     .cart-total { font-family: 'Oswald', sans-serif; color: #FBF8EF; font-size: 1.3rem; font-weight: 700;
         text-align: right; margin: 10px 0; padding-top: 10px; border-top: 2px solid #D3A22C; }
     .cart-total .amount { font-family: 'IBM Plex Mono', monospace; color: #D3A22C; }
